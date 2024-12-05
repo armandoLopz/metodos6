@@ -1,0 +1,15 @@
+Análisis de resultados y conclusión
+
+Tanto la solución manual como el algoritmo VolumenCarga llegaron al mismo resultado óptimo:
+
+La mejor estrategia es llevar 4 espadas
+Esto genera un valor total de 200,000 monedas
+Utiliza exactamente los 4 espacios disponibles
+
+¿Por qué es esta la mejor solución?
+
+Las espadas tienen la mejor relación valor/espacio: 50k/1 = 50k por espacio
+Los cascos tienen: 70k/2 = 35k por espacio
+Las botas tienen: 30k/3 = 10k por espacio
+
+Debido a esto la solución es óptima porque maximiza el valor por espacio utilizado

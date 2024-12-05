@@ -1,0 +1,21 @@
+Ruta más corta de adelante hacia atrás
+Etapa 1 (Partiendo de A):
+A → B: 2
+A → C: 4
+A → D: 3
+Etapa 2:
+A → B → E: 2 + 7 = 9
+A → B → F: 2 + 6 = 8
+A → C → F: 4 + 2 = 6
+A → C → G: 4 + 4 = 8
+A → D → G: 3 + 5 = 8
+Etapa 3:
+A → C → F → H: 6 + 3 = 9
+A → C → F → I: 6 + 3 = 9
+A → D → G → I: 8 + 3 = 11
+Etapa 4 (Llegando a J):
+A → C → F → H → J: 9 + 3 = 12
+A → C → F → I → J: 9 + 4 = 13
+Resultado final:
+
+La ruta más corta de A a J es: A → C → F → H → J Distancia total: 12

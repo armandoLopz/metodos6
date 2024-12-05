@@ -1,0 +1,31 @@
+Solución paso a paso del problema de optimización de inventario
+
+1. Análisis de todas las combinaciones posibles:
+Espacio total disponible: 4 espacios Variables: x1 (espadas), x2 (cascos), x3 (botas)
+
+Restricción principal: x1 + 2x2 + 3x3 ≤ 4 Función objetivo: Maximizar 50x1 + 70x2 + 30x3
+
+Combinaciones posibles:
+
+Solo espadas (x1): 4 espadas = 200k monedas
+Solo cascos (x2): 2 cascos = 140k monedas
+Solo botas (x3): 1 bota = 30k monedas
+Espadas + cascos: 2 espadas + 1 casco = 170k monedas
+Espadas + botas: 1 espada + 1 bota = 80k monedas
+Cascos + botas: 1 casco + 0 botas = 70k monedas
+
+2. Evaluación de resultados:
+
+4 espadas = 200k monedas (ÓPTIMO)
+2 cascos = 140k monedas
+1 bota = 30k monedas
+2 espadas + 1 casco = 170k monedas
+1 espada + 1 bota = 80k monedas
+1 casco = 70k monedas
+
+3. Solución óptima:
+
+Cantidad de espadas (x1) = 4
+Cantidad de cascos (x2) = 0
+Cantidad de botas (x3) = 0
+Valor total = 200,000 monedas
